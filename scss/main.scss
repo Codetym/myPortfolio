@@ -85,11 +85,14 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color;
+    height: 150px;
+    width: 150px;
   }
 
   .bio {
     grid-area: bio;
     font-weight: 1.5rem;
+    background: rgba(lighten($primary-color, 2), 0.5);
   }
 
   .job-1 {
